@@ -3,7 +3,7 @@ A project to start doing things in javascript using webpack to minify the genera
 
 ## Configuration Steps
 
-1. Clone this repository or download the zip file from [Here](https://github.com/jose-suero/webpackstarter/archive/master.zip)
+1. Fork this repository.
 2. Run `npm install` to install all dependencies listed in this project's package.json file.
 3. Look for the text "`<<App title>>`" in the webpack.config.js configuration file to change the Html Title for the generated index.html file.
 4. Start coding in the index.js file under the src folder.
