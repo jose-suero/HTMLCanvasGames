@@ -1,0 +1,35 @@
+{
+  "name": "webpackstarter",
+  "sideEffects": false,
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose-suero/webpackstarter.git"
+  },
+  "author": "José Ramón Suero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jose-suero/webpackstarter/issues"
+  },
+  "homepage": "https://github.com/jose-suero/webpackstarter#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^1.0.1",
+    "express": "^4.16.4",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-hot-middleware": "^2.24.3"
+  },
+  "dependencies": {}
+}
